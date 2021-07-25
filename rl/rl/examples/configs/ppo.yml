@@ -1,0 +1,17 @@
+# env_name: 'HighFreqReacherBulletEnv-v0'
+env_name: 'HighFreqInvertedDoublePendulumBulletEnv-v0'
+n_steps: 16000000
+g: 0.99
+lm: 0.95
+u_epi_ups: 1
+bs: 2000
+n_itrs: 10
+n_slices: 40
+lr: 0.0003
+h_dim: [64, 64]
+u_adv_scl: 1
+clip_eps: 0.2
+u_joint_opt: 1
+ob_norm: 0
+rew_norm: 0
+max_grad_norm: 10000000000
